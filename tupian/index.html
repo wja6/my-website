@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>图片放大查看</title>
+</head>
+<body>
+    <div class="gallery">
+        <img src="./1.jpg" alt="图片1" class="gallery-item">
+        <img src="./2.jpg" alt="图片2" class="gallery-item">
+        <img src="./3.jpg" alt="图片3" class="gallery-item">
+        <img src="./4.jpg" alt="图片4" class="gallery-item">
+        <img src="./5.jpg" alt="图片5" class="gallery-item">
+        <img src="./6.jpg" alt="图片6" class="gallery-item">
+        <img src="./7.jpg" alt="图片7" class="gallery-item">
+        <img src="./8.jpg" alt="图片8" class="gallery-item">
+        <img src="./9.jpg" alt="图片9" class="gallery-item">
+        <img src="./10.jpg" alt="图片10" class="gallery-item">
+    </div>
+
+    <!-- 模态框 -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content-wrapper"> <!-- 新增一个 wrapper -->
+            <img class="modal-content" id="modalImg">
+        </div>
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
